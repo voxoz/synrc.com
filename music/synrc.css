@@ -1,0 +1,284 @@
+
+	
+#image {
+	background-color: red;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top:-10px;
+	padding-right:4px;padding-left:4px;
+	font-family:Arial Black;
+	font-size:24pt;
+        line-height:120%;
+}
+
+#imageb {
+	background-color: blue;
+	color:white;
+	text-decoration: none;
+	font-weight: bold;
+	padding-top:-10px;
+	padding-right:4px;padding-left:4px;
+	font-family:Arial Black;
+	font-size:24pt;
+        line-height:120%;
+}
+
+.theader
+{
+	background: #333333;
+	color: #FFFFFF;
+	background: url(games/tile_cat.jpg);
+}
+
+    body {
+       font: normal 100%/100% Lucida Sans Unicode, "Lucida Grande";
+         background-repeat: repeat;
+        color: #000;
+        padding: 0;
+        margin: 0;
+    }
+
+    td:hover	{ color: black; background-color: #EEEEEE; }
+
+#image:hover {
+	background-color:white;
+	color:black;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+#imageb:hover {
+	background-color:white;
+	color:black;
+	text-overflow:ellipsis;
+	overflow:hidden;
+}
+
+
+h1, h2, h3 {
+     color: #333;
+     line-height: 125%;
+     font-weight: bold;
+     margin: 0px 0px 0px 0px;
+     padding: 0px 0px 0px 0px;
+ }
+
+ h1 {
+     font-size: 180%;
+     padding-bottom: 8px;
+ }
+
+ h2 {
+     font-size: 150%;
+     margin-top: 0px;
+     margin-bottom: 0.5em;
+     padding-top: 10px;
+ }
+
+ h3 {
+     font-size: 120%;
+ }
+
+ h4 {
+     font-size: 100%;
+ }
+
+ h5 {
+     font-size: 90%;
+ }
+
+ h6 {
+     font-size: 80%;
+ }
+
+    #navcontainer {
+        font: bold 100%/140% Verdana;
+        font-family: Verdana;
+  	width: auto;
+        margin: 0;
+	font-weight: bold;
+        padding-left: 0;
+        background-color:#CCC;
+        height: 1.20em;
+        border-bottom: 1px solid #666;
+        z-index: 100;
+
+    }
+
+    #nav {
+        font: bold 0.75em/100% Lucida Sans Unicode;
+        float: left;
+        width: inherit;
+        list-style: none;
+        line-height: 1;
+        background: #DDD;
+        padding: 0;
+        margin: 0;
+        z-index: 100;
+    }
+
+    #nav ul {
+        font: normal 100%/140% Lucida Sans Unicode;
+        position: absolute;
+        left: -999em;
+        height: auto;
+        width: 12.01em;
+        /*w\idth: 12.0em;*/
+        list-style: none;
+        border-top: 0.1em solid #666;
+        border-right: 0.1em solid #666;
+        border-bottom: 0.1em solid #666;
+        border-left: 0.75em solid #666;
+        margin: 0;
+        padding: 0;
+        z-index: 100;
+        background: #ffffff;
+    }
+
+    #nav li {
+	color: white;
+        float: left;
+        padding: 0;
+        width: auto;
+        z-index: 100;
+        background: #ffffff;
+    }
+
+    #nav ul li {
+        float: left;
+        padding: 0;
+        width: 10em;
+        z-index: 100;
+		color: #ddd;
+        background: #ffffff;
+    }
+
+    #nav li a {
+        display: block;
+        width: auto;
+        border-left: 0.1em solid #fff;
+        border-top: 0.1em solid #fff;
+        border-right: 0.1em solid #aaa;
+        border-bottom: none;
+        padding: 0.25em 1.0em;
+        color: #444;
+        background: #ddd;
+        text-decoration: none;
+    }
+
+    #nav li li a {
+        width: 10em;
+        margin: 0;
+        padding: 0.25em 1.0em;
+        border-top: 0;
+        border-right: 0;
+        border-bottom: 0.1em solid #fff;
+        border-left: 0;
+    }
+
+    #nav a:active,
+	#nav a:hover {
+        color: #000;
+        background: #bbb;
+    }
+
+    #nav a.daddy {
+    }
+
+    #nav li ul ul {
+        margin: -1.75em 0 0 11em;
+        z-index: 100;
+    }
+
+    #nav li:hover ul ul,
+    #nav li:hover ul ul ul,
+    #nav li.sfhover ul ul,
+    #nav li.sfhover ul ul ul {
+        left: -999em;
+        z-index: 100;
+    }
+
+    #nav li:hover ul,
+    #nav li li:hover ul,
+    #nav li li li:hover ul,
+    #nav li.sfhover ul,
+    #nav li li.sfhover ul,
+    #nav li li li.sfhover ul {
+        left: auto;
+        z-index: 100;
+    }
+
+    #nav li:hover,
+    #nav li.sfhover {
+        background: #bbb;
+        z-index: 100;
+    }
+
+A:link { font-weight: bold; color: blue; }
+A:visited { font-weight: bold; color: blue; }
+A:hover { font-weight: bold; color: #0033cc; }
+
+.logo_font { font-family: "Palatino Linotype"; margin-bottom: 0px; line-height: 60%; }
+.menu { font-size:14pt; color: red; }
+.menu:hover { font-size:14pt; color: red; }
+.block { background-color: #f0f0f0; padding-top:1px; padding-bottom:1px; float: center; }
+.column { margin-left:-20px; padding-right:10px; padding-left:10px; width:350; vertical-align:top; }
+.wrapper     { width: 1090px; float: center; margin: 0 auto; }
+.article     { width: 1110px; float: center; margin: 0 auto; }
+.verywidecol { width:  700px; float: center; margin: 0 auto; text-align: justify; }
+.selectedwrapper    { width: 100%; background-color: #bababa; margin: 0 auto; padding-bottom: 10px; overflow: hidden; background: url(http://cdn.basho.com/images/body-bg.jpg) left top #fafafa;  }
+.nonselectedwrapper { width: 100%; margin: 0 auto; padding: 0; overflow: hidden; }
+.threecol   { width: 350px; float: left; padding: 10px;}
+.widecol    { width: 350px; float: left; padding: 10px; }
+.smallcol   { width: 200px; float: left; padding-rigt: 20px; }
+.toc   { width: 200px; float: left; padding-rigt: 20px; }
+.articlecol { width: 710px; float: left; padding-rigt: 20px; margin: 0 auto; text-align: justify; }
+.last { margin-right: 0; }
+.clear { clear: both; }
+
+* {
+  -webkit-box-sizing: border-box;
+     -moz-box-sizing: border-box;
+      -ms-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/nokiapuretextlight-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+    font-weight: 200;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: "Nokia Pure Text";
+        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/nokiapuretextbold-webfont.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+    font-weight: 200;
+    font-style: bold;
+}
+
+@font-face {
+    font-family: "Palatino Linotype";
+        src: url("http://82.144.202.161/fonts/pala.eot?"); /* IE9 */
+        src: url("http://82.144.202.161/fonts/pala.eot?v=2.3.1.12#iefix") format("eot"), /* IE6-IE8 */
+             url("http://82.144.202.161/fonts/pala.woff?v=2.3.1.12") format("truetype"), /* Mordern browsers */
+             url("http://82.144.202.161/fonts/pala.ttf?v=2.3.1.12") format("truetype"); /* Safari, Android, iOS */
+    font-weight: 10;
+    font-style: normal;
+}
+
+
+.fork-me {
+  position: absolute;
+  top: 0;
+  right: 0;
+  border: 0;
+}
+
